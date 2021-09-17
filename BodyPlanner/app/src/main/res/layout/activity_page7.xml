@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    android:padding="5dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Page7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Body Planner"
+            android:fontFamily="@font/wemakeprice"
+            android:textColor="#2196F3"
+            android:textSize="22sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+
+        <Button
+            android:id="@+id/BACK"
+            android:layout_width="77dp"
+            android:layout_height="40dp"
+            android:fontFamily="@font/wemakeprice"
+            android:text="BACK"
+            android:textSize="14sp"
+            app:backgroundTint="#3FBFCF" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <ViewFlipper
+                android:id="@+id/Flipper"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/page1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/healthset"
+                        android:text="개인정보 수정"
+                        android:textColor="#4852AE"
+                        android:textSize="20sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/healthset"
+                            android:text="나이  : "
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/edit_age"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/healthset"
+                            android:gravity="center"
+                            android:hint="나이"
+                            android:imeOptions="actionDone"
+                            android:inputType="number"
+                            android:textSize="18sp" />
+
+                        <Space
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content" />
+
+                        <Button
+                            android:id="@+id/btn_age_edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/wemakeprice"
+                            android:text="EDIT"
+                            android:textSize="15sp"
+                            app:backgroundTint="#2196F3" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/healthset"
+                            android:text="신장  : "
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/edit_height"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/healthset"
+                            android:gravity="center"
+                            android:hint="키(cm)"
+                            android:imeOptions="actionDone"
+                            android:inputType="numberDecimal"
+                            android:textSize="18sp" />
+
+                        <Space
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content" />
+
+                        <Button
+                            android:id="@+id/btn_height_edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/wemakeprice"
+                            android:text="EDIT"
+                            android:textSize="15sp"
+                            app:backgroundTint="#2196F3" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/healthset"
+                            android:text="체중  : "
+                            android:textSize="20sp" />
+
+                        <EditText
+                            android:id="@+id/edit_weight"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/healthset"
+                            android:gravity="center"
+                            android:hint="몸무게(kg)"
+                            android:imeOptions="actionDone"
+                            android:inputType="numberDecimal"
+                            android:textSize="18sp" />
+
+                        <Space
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content" />
+
+                        <Button
+                            android:id="@+id/btn_weight_edit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/wemakeprice"
+                            android:text="EDIT"
+                            android:textSize="15sp"
+                            app:backgroundTint="#2196F3" />
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/healthset"
+                        android:text="운동 목표 수정"
+                        android:textColor="#4852AE"
+                        android:textSize="20sp" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/edit_Bulk"
+                            android:layout_width="150dp"
+                            android:layout_height="55dp"
+                            android:fontFamily="@font/healthset"
+                            android:text="벌크업"
+                            android:textSize="20sp"
+                            app:backgroundTint="#2196F3" />
+
+                        <Space
+                            android:layout_width="150dp"
+                            android:layout_height="20dp" />
+
+                        <Button
+                            android:id="@+id/edit_Lean"
+                            android:layout_width="150dp"
+                            android:layout_height="55dp"
+                            android:fontFamily="@font/healthset"
+                            android:text="린매쓰업"
+                            android:textSize="20sp"
+                            app:backgroundTint="#2196F3" />
+
+                        <Space
+                            android:layout_width="150dp"
+                            android:layout_height="20dp" />
+
+                        <Button
+                            android:id="@+id/edit_Diet"
+                            android:layout_width="150dp"
+                            android:layout_height="55dp"
+                            android:fontFamily="@font/healthset"
+                            android:text="다이어트"
+                            android:textSize="20sp"
+                            app:backgroundTint="#2196F3" />
+
+                        <Space
+                            android:layout_width="150dp"
+                            android:layout_height="20dp" />
+
+                        <Button
+                            android:id="@+id/SAVE"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/healthset"
+                            android:text="운동목표 저장"
+                            app:backgroundTint="#3FBFCF" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/page2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/healthset"
+                        android:text="활동량 수정"
+                        android:textColor="#4852AE"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="230dp"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/bccard"
+                            android:gravity="center_vertical"
+                            android:text="평소에 운동을 전혀 하지않음"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/act_1"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="230dp"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/bccard"
+                            android:gravity="center_vertical"
+                            android:text="주에 1~2회 정도 가벼운 운동"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/act_2"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="230dp"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/bccard"
+                            android:gravity="center_vertical"
+                            android:text="주에 3~4회 정도 적당한 운동"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/act_3"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="230dp"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/bccard"
+                            android:gravity="center_vertical"
+                            android:text="주에 5~6회 정도 고강도 운동"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/act_4"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="230dp"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/bccard"
+                            android:gravity="center_vertical"
+                            android:text="아마추어 및 프로선수급"
+                            android:textSize="18sp" />
+
+                        <CheckBox
+                            android:id="@+id/act_5"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+
+                    <Button
+                        android:id="@+id/savee"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/healthset"
+                        android:text="활동량 저장"
+                        app:backgroundTint="#3FBFCF" />
+                </LinearLayout>
+            </ViewFlipper>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/prev"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="◀"
+                    android:textColor="@color/white"
+                    app:backgroundTint="#A5A6A4" />
+
+                <Space
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/next"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="▶"
+                    android:textColor="@color/white"
+                    app:backgroundTint="#A5A6A4" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:padding="25dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Page3">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/name_sub1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#00BCD4"
+            android:text="3페이지"
+            android:fontFamily="@font/healthset"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:text="님의 활동대사량은"
+            android:fontFamily="@font/healthset"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="27sp"
+            android:textColor="#4FC94F"
+            android:text="3페이지"
+            android:fontFamily="@font/healthset"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23sp"
+            android:text="Kcal 입니다."
+            android:fontFamily="@font/healthset"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:text="이제, 목표하는 운동 계획을"
+            android:fontFamily="@font/healthset"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:text="선택해주세요."
+            android:fontFamily="@font/healthset"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"/>
+
+        <Button
+            android:id="@+id/Bulk"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:text="벌크업"
+            android:textSize="18sp"
+            app:backgroundTint="#2196F3"
+            android:fontFamily="@font/healthset"/>
+
+        <Space
+            android:layout_width="150dp"
+            android:layout_height="25dp" />
+
+        <Button
+            android:id="@+id/Lean"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:text="린매쓰업"
+            android:textSize="18sp"
+            app:backgroundTint="#2196F3"
+            android:fontFamily="@font/healthset"/>
+
+        <Space
+            android:layout_width="150dp"
+            android:layout_height="25dp" />
+
+        <Button
+            android:id="@+id/Diet"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:text="다이어트"
+            android:textSize="18sp"
+            app:backgroundTint="#2196F3"
+            android:fontFamily="@font/healthset"/>
+
+        <Space
+            android:layout_width="150dp"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/btn_move"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="NEXT"
+            app:backgroundTint="#3FBFCF" />
+    </LinearLayout>
+
+
+</LinearLayout>

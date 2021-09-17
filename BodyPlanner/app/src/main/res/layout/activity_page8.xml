@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="3dp"
+    android:padding="3dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Page8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Body Planner"
+            android:textColor="#2196F3"
+            android:textSize="22sp"
+            android:fontFamily="@font/wemakeprice"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        </View>
+
+        <Button
+            android:id="@+id/BACK"
+            android:layout_width="77dp"
+            android:layout_height="40dp"
+            android:text="BACK"
+            android:textSize="14sp"
+            app:backgroundTint="#3FBFCF"
+            android:fontFamily="@font/wemakeprice"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#142383"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="운동 추가"
+            android:textColor="#46C1BB"
+            android:textSize="20sp"
+            android:fontFamily="@font/healthset"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        </View>
+
+        <Button
+            android:id="@+id/help"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="❔"
+            android:textColor="@color/black"
+            app:backgroundTint="#A5A6A4"
+            app:iconTint="#FFFFFF" />
+
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Spinner
+            android:id="@+id/training"
+            android:spinnerMode="dialog"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:fontFamily="@font/healthset"
+            />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <Spinner
+            android:id="@+id/part"
+            android:spinnerMode="dialog"
+            android:layout_width="107dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:fontFamily="@font/healthset"
+            />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <Spinner
+            android:id="@+id/muscle"
+            android:spinnerMode="dialog"
+            android:layout_width="123dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:fontFamily="@font/healthset"
+            />
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#878383" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/heft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="무게/속도"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal"
+            android:fontFamily="@font/healthset"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="반복횟수/시간"
+            android:imeOptions="actionNext"
+            android:textSize="15sp"
+            android:inputType="number"
+            android:fontFamily="@font/healthset"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/set"
+            android:gravity="center"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:hint="세트수"
+            android:imeOptions="actionDone"
+            android:textSize="15sp"
+            android:inputType="number"
+            android:fontFamily="@font/healthset"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/muscle_save"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:text="✛"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            app:backgroundTint="#2196F3" />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#142383"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="12dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/training_show"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:choiceMode="singleChoice"
+            android:scrollbarSize="2dp"
+            android:background="@drawable/page6_textview" />
+
+        <Button
+            android:id="@+id/clear_act"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_gravity="right"
+            android:text="Delete"
+            android:textSize="15sp"
+            app:backgroundTint="#3FBFCF"
+            android:fontFamily="@font/wemakeprice"/>
+    </LinearLayout>
+
+</LinearLayout>

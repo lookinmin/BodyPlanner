@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:padding="25dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Page2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="60dp">
+        <TextView
+            android:id="@+id/name_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#00BCD4"
+            android:text="4페이지"
+            android:fontFamily="@font/healthset"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:text="님의 기초대사량은"
+            android:fontFamily="@font/healthset"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="60dp">
+        <TextView
+            android:id="@+id/harris_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#4FC94F"
+            android:text="2페이지"
+            android:fontFamily="@font/healthset"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="Kcal 입니다."
+            android:fontFamily="@font/healthset"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:text="활동대사량 측정을 위해,"
+            android:fontFamily="@font/healthset"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:text="평소 본인의 활동량을 선택해주세요."
+            android:fontFamily="@font/healthset"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:text="평소에 운동을 전혀 하지않음"
+            android:fontFamily="@font/healthset"/>
+
+        <CheckBox
+            android:id="@+id/act_1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:text="주에 1~2회 정도 가벼운 운동"
+            android:fontFamily="@font/healthset"/>
+
+        <CheckBox
+            android:id="@+id/act_2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:text="주에 3~4회 정도 적당한 운동"
+            android:fontFamily="@font/healthset"/>
+
+        <CheckBox
+            android:id="@+id/act_3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:text="주에 5~6회 정도 고강도 운동"
+            android:fontFamily="@font/healthset"/>
+
+        <CheckBox
+            android:id="@+id/act_4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:text="아마추어 및 프로선수급"
+            android:fontFamily="@font/healthset"/>
+
+        <CheckBox
+            android:id="@+id/act_5"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_move"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="NEXT"
+            app:backgroundTint="#3FBFCF" />
+    </LinearLayout>
+
+
+</LinearLayout>

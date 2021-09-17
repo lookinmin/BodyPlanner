@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="3dp"
+    android:padding="3dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Page6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/wemakeprice"
+            android:text="Body Planner"
+            android:textColor="#2196F3"
+            android:textSize="22sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        </View>
+
+        <Button
+            android:id="@+id/BACK"
+            android:layout_width="77dp"
+            android:layout_height="40dp"
+            android:fontFamily="@font/wemakeprice"
+            android:text="BACK"
+            android:textSize="14sp"
+            app:backgroundTint="#3FBFCF" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#142383"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/healthset"
+            android:text="식단 추가"
+            android:textColor="#46C1BB"
+            android:textSize="22sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        </View>
+
+        <Button
+            android:id="@+id/help"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="❔"
+            android:textColor="@color/black"
+            app:backgroundTint="#A5A6A4"
+            app:iconTint="#FFFFFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Spinner
+            android:id="@+id/meal"
+            android:spinnerMode="dialog"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="@font/healthset"
+            android:textAlignment="center"
+            />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <Spinner
+            android:id="@+id/kinds"
+            android:spinnerMode="dialog"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="@font/healthset"
+            android:textAlignment="center"
+            />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/count"
+            android:fontFamily="@font/bccard"
+            android:hint="개수"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:inputType="number"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/meal_save"
+            android:layout_width="45dp"
+            android:layout_height="50dp"
+            android:text="✛"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            app:backgroundTint="#3FBFCF" />
+    </LinearLayout>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/healthset"
+        android:textSize="18sp"
+        android:text="목록 외 식단추가"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/Mname"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:fontFamily="@font/healthset"
+            android:hint="음식명"
+            android:singleLine="true"
+            android:textSize="18sp" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/MKcal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="@font/healthset"
+            android:hint="칼로리(Kcal)"
+            android:inputType="numberDecimal"
+            android:imeOptions="actionNext"
+            android:textSize="18sp" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/Mcarbo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="@font/healthset"
+            android:hint="탄수화물(g)"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal"
+            android:textSize="18sp"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/Mpro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="@font/healthset"
+            android:hint="단백질(g)"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal"
+            android:textSize="18sp"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/Mfat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="@font/healthset"
+            android:hint="지방(g)"
+            android:imeOptions="actionDone"
+            android:inputType="numberDecimal"
+            android:textSize="18sp"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#142383"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/page6_textview">
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/healthset"
+                android:text="섭취 칼로리 : "
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/eat_kcal"
+                android:fontFamily="@font/bccard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="@font/bccard"
+                android:text="Kcal"/>
+
+            <Space
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/healthset"
+                android:text="섭취 탄수화물 : "
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/eat_carbo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bccard"
+                android:textSize="16sp"
+                android:text="000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bccard"
+                android:textSize="17sp"
+                android:text="g"/>
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/healthset"
+                android:text="섭취 단백질 : "
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/eat_protein"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="@font/bccard"
+                android:text="000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:fontFamily="@font/bccard"
+                android:text="g"/>
+
+            <Space
+                android:layout_width="35dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/healthset"
+                android:text="섭취 지방 : "
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/eat_fat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bccard"
+                android:textSize="16sp"
+                android:text="000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bccard"
+                android:textSize="17sp"
+                android:text="g"/>
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#878383"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/healthset"
+                android:text="목표 칼로리 : "
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/lack_kcal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bccard"
+                android:textSize="16sp"
+                android:text="5000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bccard"
+                android:textSize="16sp"
+                android:text="Kcal"/>
+
+            <Space
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/healthset"
+                android:text="목표 탄수화물 : "
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/lack_carbo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bccard"
+                android:textSize="16sp"
+                android:text="5000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:fontFamily="@font/bccard"
+                android:text="g"/>
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/healthset"
+                android:text="목표 단백질 : "
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/lack_protein"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bccard"
+                android:textSize="16sp"
+                android:text="5000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:fontFamily="@font/bccard"
+                android:text="g"/>
+
+            <Space
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/healthset"
+                android:text="목표 지방 : "
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/lack_fat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="@font/bccard"
+                android:text="5000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:fontFamily="@font/bccard"
+                android:text="g"/>
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/meal_show"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:layout_weight="1"
+            android:choiceMode="singleChoice"
+            android:scrollbarSize="2dp"
+            android:background="@drawable/page6_textview"/>
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_gravity="right"
+            android:fontFamily="@font/wemakeprice"
+            android:text="Delete"
+            android:textSize="15sp"
+            app:backgroundTint="#3FBFCF" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Page9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        </View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Body Planner"
+            android:textColor="#2196F3"
+            android:textSize="20sp"
+            android:fontFamily="@font/wemakeprice"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        </View>
+
+    </LinearLayout>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bccard"
+            android:text="식단 기준표"
+            android:textColor="#62BA30"
+            android:textSize="16sp"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        </View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bccard"
+            android:text="https://www.fatsecret.kr 참조"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#878383"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="현미밥 : 햇반 현미쌀밥 1개 130g "
+                android:textSize="15sp"
+                android:fontFamily="@font/bccard"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="흰쌀밥 : 햇반 흰쌀밥 1개 210g "
+                android:textSize="15sp"
+                android:fontFamily="@font/bccard"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="통밀빵 : 1회 제공함량 100g "
+                android:textSize="15sp"
+                android:fontFamily="@font/bccard"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="식빵 : 평균크기 1장, 기본식빵"
+                android:textSize="15sp"
+                android:fontFamily="@font/bccard"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="고구마 : 호박고구마 1회 제공함량 100g "
+                android:textSize="15sp"
+                android:fontFamily="@font/bccard"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="감자 : 삶은감자 1회 제공함량 100g "
+                android:textSize="15sp"
+                android:fontFamily="@font/bccard"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="바나나 : 바나나 1개 18~20cm"
+                android:textSize="15sp"
+                android:fontFamily="@font/bccard"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="단호박 : 찐단호박 1인분(125g)"
+                android:textSize="15sp"
+                android:fontFamily="@font/bccard"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="오트밀 : Quaker 오트밀 오리지널 30g"
+                android:textSize="15sp"
+                android:fontFamily="@font/bccard"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="닭가슴살 : 1회 제공함량 100g "
+                android:textSize="15sp"
+                android:fontFamily="@font/bccard"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="훈제 닭가슴살 : 잇메이트 오리지널 100g "
+                android:textSize="15sp"
+                android:fontFamily="@font/bccard"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="닭가슴살 스테이크 : 맛있닭 오리지널 100g "
+                android:textSize="15sp"
+                android:fontFamily="@font/bccard"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="닭가슴살 샐러드 : 이마트 1팩 제공함량 205g "
+                android:textSize="15sp"
+                android:fontFamily="@font/bccard"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="소 등심 : 1인분 제공함량 200g "
+                android:textSize="15sp"
+                android:fontFamily="@font/bccard"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="소 부채살 : 1인분 제공함량 200g "
+                android:textSize="15sp"
+                android:fontFamily="@font/bccard"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="돼지 목살 : 1인분 제공함량 200g "
+                android:textSize="15sp"
+                android:fontFamily="@font/bccard"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="돼지 삼겹살 : 1인분 제공함량 200g "
+                android:textSize="15sp"
+                android:fontFamily="@font/bccard"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="계란 : 삶은계란 1개 "
+                android:textSize="15sp"
+                android:fontFamily="@font/bccard"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="프로틴 : MyProtein 내추럴초코 한스쿱 약 28g "
+                android:textSize="15sp"
+                android:fontFamily="@font/bccard"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="훈제 연어 : 제공함량 100g "
+                android:textSize="15sp"
+                android:fontFamily="@font/bccard"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="아보카도 : 1/2개  "
+                android:textSize="15sp"
+                android:fontFamily="@font/bccard"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="슬라이스 치즈: 평균크기 치즈 1장"
+                android:textSize="15sp"
+                android:fontFamily="@font/bccard"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="우유 : 서울우유 200ml 한 팩 "
+                android:textSize="15sp"
+                android:fontFamily="@font/bccard"/>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="그릭 요거트 : 1인분 제공함량 120g "
+                android:textSize="15sp"
+                android:fontFamily="@font/bccard"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="견과류 : 산과들에 한줌견과 1팩 "
+                android:textSize="15sp"
+                android:fontFamily="@font/bccard"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="사과 : 150g 기준 1개 "
+                android:textSize="15sp"
+                android:fontFamily="@font/bccard"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="에너지바 : Dr.You 에너지바 1개 "
+                android:textSize="15sp"
+                android:fontFamily="@font/bccard"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="프로틴바 : Dr.You 프로틴바 1개 "
+                android:textSize="15sp"
+                android:fontFamily="@font/bccard"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BCAA : MyProtein BCAA 1스쿱 5g "
+                android:textSize="15sp"
+                android:fontFamily="@font/bccard"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="아메리카노 : 스타벅스 Tall 사이즈 355ml "
+                android:textSize="15sp"
+                android:fontFamily="@font/bccard"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="김치 : 배추김치 1인분 38g "
+                android:textSize="15sp"
+                android:fontFamily="@font/bccard"/>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="3dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#878383"/>
+
+</LinearLayout>

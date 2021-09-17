@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Page10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        </View>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Body Planner"
+            android:textColor="#2196F3"
+            android:textSize="20sp"
+            android:fontFamily="@font/wemakeprice"
+            />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        </View>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#E41212"
+        android:textSize="20sp"
+        android:text="운동 기입시 유의사항"
+        android:fontFamily="@font/bccard"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="유산소 운동의 경우,"
+        android:fontFamily="@font/bccard"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="부분 선택과 세트 수 기입란을"
+        android:fontFamily="@font/bccard"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="빈칸으로 해야"
+        android:fontFamily="@font/bccard"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="올바른 결과값이 기입됩니다."
+        android:fontFamily="@font/bccard"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="런닝머신 입력 시에는 속력,"
+        android:fontFamily="@font/bccard"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="사이클 입력 시에는 총 거리를 입력해주세요."
+        android:fontFamily="@font/bccard"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="유산소 운동 시,"
+        android:fontFamily="@font/bccard"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="시간 기입의 기준은 '분' 입니다."
+        android:fontFamily="@font/bccard"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="유산소운동 소모 칼로리값은"
+        android:fontFamily="@font/bccard"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="100% 정확하진 않습니다."
+        android:fontFamily="@font/bccard"/>
+</LinearLayout>

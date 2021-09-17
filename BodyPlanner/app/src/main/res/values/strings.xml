@@ -1,0 +1,189 @@
+<resources>
+    <string name="app_name">Body Planner</string>
+    <string-array name="영양군">
+        <item>탄수화물</item>
+        <item>단백질</item>
+        <item>지방</item>
+        <item>기타</item>
+    </string-array>
+
+    <string-array name="탄수화물식단">
+        <item>현미밥</item>
+        <item>흰쌀밥</item>
+        <item>통밀빵</item>
+        <item>식빵</item>
+        <item>고구마</item>
+        <item>감자</item>
+        <item>바나나</item>
+        <item>단호박</item>
+        <item>오트밀</item>
+    </string-array>
+
+    <string-array name="단백질식단">
+        <item>닭가슴살</item>
+        <item>훈제 닭가슴살</item>
+        <item>닭가슴살 스테이크</item>
+        <item>닭가슴살 샐러드</item>
+        <item>소 등심</item>
+        <item>소 부채살</item>
+        <item>돼지 목살</item>
+        <item>돼지 삼겹살</item>
+        <item>계란</item>
+        <item>프로틴</item>
+        <item>훈제 연어</item>
+    </string-array>
+
+    <string-array name="지방식단">
+        <item>아보카도</item>
+        <item>우유</item>
+        <item>슬라이스 치즈</item>
+        <item>그릭 요거트</item>
+    </string-array>
+
+    <string-array name="기타식단">
+        <item>견과류</item>
+        <item>사과</item>
+        <item>에너지바</item>
+        <item>프로틴바</item>
+        <item>BCAA</item>
+        <item>아메리카노</item>
+        <item>김치</item>
+    </string-array>
+
+    <string-array name="운동">
+        <item>유산소</item>
+        <item>웨이트</item>
+    </string-array>
+
+    <string-array name="웨이트부위">
+        <item>등</item>
+        <item>가슴</item>
+        <item>어깨</item>
+        <item>이두</item>
+        <item>삼두</item>
+        <item>하체</item>
+        <item>복근</item>
+    </string-array>
+
+    <string-array name="등운동">
+        <item>루마니안 데드리프트</item>
+        <item>풀업</item>
+        <item>와이드 풀업</item>
+        <item>친업</item>
+        <item>랫 풀다운</item>
+        <item>비하인드 넥 풀다운</item>
+        <item>와이드 풀다운</item>
+        <item>암 풀다운</item>
+        <item>바벨 로우</item>
+        <item>시티드 로우</item>
+        <item>케이블 시티드로우</item>
+        <item>와이드 시티드로우</item>
+        <item>원암 시티드로우</item>
+        <item>덤벨 로우</item>
+        <item>로우 로우</item>
+        <item>프론트 로우</item>
+        <item>T-바 로우</item>
+        <item>인버티드 로우</item>
+    </string-array>
+
+    <string-array name="가슴운동">
+        <item>푸쉬업</item>
+        <item>벤치프레스</item>
+        <item>스미스 벤치프레스</item>
+        <item>인클라인 벤치프레스</item>
+        <item>디클라인 벤치프레스</item>
+        <item>덤벨프레스</item>
+        <item>인클라인 덤벨프레스</item>
+        <item>디클라인 덤벨프레스</item>
+        <item>스퀴즈 프레스</item>
+        <item>와이드 체스트 프레스</item>
+        <item>머신 체스트 프레스</item>
+        <item>머신 인클라인 프레스</item>
+        <item>머신 디클라인 프레스</item>
+        <item>덤벨 풀오버</item>
+        <item>딥스</item>
+        <item>덤벨 플라이</item>
+        <item>체스트 플라이</item>
+        <item>케이블 크로스오버</item>
+    </string-array>
+
+    <string-array name="어깨운동">
+        <item>사이드 레터럴 레이즈</item>
+        <item>원암 사레레</item>
+        <item>원암 케이블 사레레</item>
+        <item>밀리터리 프레스</item>
+        <item>오버헤드 프레스</item>
+        <item>덤벨 숄더프레스</item>
+        <item>머신 숄더프레스</item>
+        <item>아놀드 프레스</item>
+        <item>비하인드 넥 프레스</item>
+        <item>프론트 레이즈</item>
+        <item>케이블 프론트 레이즈</item>
+        <item>케이블 리어 델트</item>
+        <item>벤트오버 레터럴 레이즈</item>
+        <item>페이스 풀</item>
+        <item>케이블 리버스 플라이</item>
+        <item>업라이트 로우</item>
+        <item>벤트오버 로우</item>
+        <item>슈러그</item>
+        <item>리버스 펙 덱 플라이</item>
+    </string-array>
+
+    <string-array name="이두운동">
+        <item>덤벨 컬</item>
+        <item>바벨 컬</item>
+        <item>Ez바 컬</item>
+        <item>해머 컬</item>
+        <item>리버스 컬</item>
+        <item>프리쳐 컬</item>
+        <item>암 컬머신</item>
+        <item>컨센트레이션 컬</item>
+        <item>케이블 컬</item>
+        <item>케이블 해머컬</item>
+        <item>케이블 오버헤드 컬</item>
+    </string-array>
+
+    <string-array name="삼두운동">
+        <item>케이블 푸쉬다운</item>
+        <item>케이블 로프다운</item>
+        <item>라잉 트라이셉 익스텐션</item>
+        <item>오버헤드 익스텐션</item>
+        <item>원암 오버헤드 익스텐션</item>
+        <item>케이블 오버헤드 익스텐션</item>
+        <item>덤벨 킥 백</item>
+        <item>케이블 킥 백</item>
+    </string-array>
+
+    <string-array name="하체운동">
+        <item>데드리프트</item>
+        <item>스쿼트</item>
+        <item>덤벨 스쿼트</item>
+        <item>핵 스쿼트</item>
+        <item>브이 스쿼트</item>
+        <item>레그 프레스</item>
+        <item>런지</item>
+        <item>레그 익스텐션</item>
+        <item>라잉 레그 컬</item>
+        <item>시티드 레그 컬</item>
+        <item>힙 쓰러스트</item>
+        <item>레그 어덕션</item>
+        <item>카프레이즈</item>
+    </string-array>
+
+    <string-array name="복근운동">
+        <item>크런치</item>
+        <item>리버스 크런치</item>
+        <item>레그레이즈</item>
+        <item>행잉 레그레이즈</item>
+        <item>행잉 니 레이즈</item>
+        <item>트위스트 크런치</item>
+        <item>사이드 크런치</item>
+        <item>머신 앱도미널 크런치</item>
+    </string-array>
+
+    <string-array name="유산소부위">
+        <item>런닝머신</item>
+        <item>사이클</item>
+        <item>스탭퍼</item>
+    </string-array>
+</resources>

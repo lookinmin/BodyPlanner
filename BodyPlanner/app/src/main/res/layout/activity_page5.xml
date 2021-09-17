@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    android:padding="3dp"
+    android:paddingBottom="0dp"
+    android:layout_marginBottom="0dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Page5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Body Planner"
+            android:textColor="#2196F3"
+            android:fontFamily="@font/wemakeprice"
+            android:textSize="22sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/EDIT"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:fontFamily="@font/wemakeprice"
+            android:text="EDIT"
+            app:backgroundTint="#3FBFCF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="353dp"
+        android:background="@drawable/page6_textview"
+        android:orientation="vertical">
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+                android:id="@+id/calendar"
+                android:layout_width="match_parent"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_height="390dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="-50dp"
+                android:layout_marginBottom="-45dp"
+                android:selectedWeekBackgroundColor="#3F51B5"
+                app:mcv_selectionColor="#82DBDC"
+                />
+        </ScrollView>
+
+
+    </LinearLayout>
+
+<Space
+    android:layout_width="match_parent"
+    android:layout_height="3dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/healthset"
+            android:textSize="16sp"
+            android:text="운동목표 : "/>
+        <TextView
+            android:id="@+id/state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/healthset"
+            android:textSize="16sp"
+            android:text=""/>
+
+        <Space
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/healthset"
+            android:textSize="16sp"
+            android:text="현재 체중 : "/>
+
+        <TextView
+            android:id="@+id/show_weight"
+            android:fontFamily="@font/bccard"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="kg"
+            android:fontFamily="@font/bccard"
+            android:layout_width="wrap_content"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="3dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="202dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/meal_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/page5_textview"
+                    android:paddingRight="3dp"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="1dp"
+                    android:gravity="center"
+                    android:fontFamily="@font/healthset"
+                    android:lineSpacingExtra="3.5dp"
+                    android:lineSpacingMultiplier="1.1"
+                    android:hint="탭하여 식단을 추가하세요"
+                    android:scrollbarAlwaysDrawVerticalTrack="true"
+                    android:scrollbarFadeDuration="0"
+                    android:scrollbarSize="2dp"
+                    android:scrollbarStyle="outsideInset"
+                    android:scrollbars="vertical"
+                    android:textSize="15sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="3dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="202dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/training_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/page5_textview"
+                    android:gravity="center"
+                    android:fontFamily="@font/healthset"
+                    android:paddingRight="3dp"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="1dp"
+                    android:lineSpacingMultiplier="1.2"
+                    android:lineSpacingExtra="3dp"
+                    android:hint="탭하여 운동을 추가하세요"
+                    android:scrollbarAlwaysDrawVerticalTrack="true"
+                    android:scrollbarFadeDuration="0"
+                    android:scrollbarSize="2dp"
+                    android:scrollbarStyle="outsideInset"
+                    android:scrollbars="vertical"
+                    android:textSize="15sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
