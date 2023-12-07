@@ -5,7 +5,7 @@
 <hr/>
 
 ### Project 개요<br/>
-  - 헬스를 하는 사용자들에게 웨이트/유산소 트레이닝의 Daily 기록 및 식단 기록 어플리케이션<br/>
+  - 헬스를 하는 사용자들에게 웨이트/유산소 트레이닝의 Daily 기록 및 운동 목표에 따른 식단 기록 어플리케이션<br/>
   
 ### Project 개발 과정<br/>
   - Android Studio를 통한 Android Native 개발<br/>
