@@ -11,4 +11,5 @@
 
 <hr/>
 ### Application Download Link <br/>
-[Body Planner](https://play.google.com/console/u/0/developers/4646059689067145200/app/4976338209443517309/app-dashboard?timespan=thirtyDays)
+<a href="https://play.google.com/console/u/0/developers/4646059689067145200/app/4976338209443517309/app-dashboard?timespan=thirtyDays">Body Planner</a>
+
