@@ -20,8 +20,8 @@
 
 ### Application
 
-<img src="./img/cap1.jpg" width="35%"> | <img src="./img/cap2.jpg" width="35%">
-<img src="./img/cap3.jpg" width="35%"> | <img src="./img/cap4.jpg" width="35%">
+<img src="./img/cap1.jpg" width="35%" align="center"> | <img src="./img/cap2.jpg" width="35%" align="center">
+<img src="./img/cap3.jpg" width="35%" align="center"> | <img src="./img/cap4.jpg" width="35%" align="center">
 
 
 
