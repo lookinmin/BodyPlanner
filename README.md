@@ -19,11 +19,15 @@
 <hr/>
 
 ### Application
-<img src="./img/cap1.jpg" width="40%">
-<img src="./img/cap2.jpg" width="40%">
-
-<img src="./img/cap3.jpg" width="40%">
-<img src="./img/cap4.jpg" width="40%">
-
+<div display="flex" flexFlow="column nowrap" gap="10px">
+  <div display="flex" flexFlow="row nowrap" gap="10px">
+    <img src="./img/cap1.jpg" width="100%">
+    <img src="./img/cap2.jpg" width="100%">
+  </div>
+  <div display="flex" flexFlow="row nowrap" gap="10px">
+    <img src="./img/cap3.jpg" width="100%">
+    <img src="./img/cap4.jpg" width="100%">
+  </div>
+</div>
 
 
