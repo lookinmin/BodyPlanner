@@ -11,6 +11,9 @@
   - Android Studio를 통한 Android Native 개발<br/>
   - FatSecret을 통한 각 식단 별 영양소 DB 생성 <a href="https://www.fatsecret.kr/">LINK</a>
 
+### 사용 기술 및 언어
+  - Android Studio, JAVA, SQLite
+
 <hr/>
 
 ### Application Download Link <br/>
